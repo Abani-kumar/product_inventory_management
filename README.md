@@ -5,7 +5,7 @@ The Product Inventory Management API is a RESTful service designed for managing 
 
 ## Base URL
 ```
-[https://product-inventory-management-qxul.onrender.com/]
+https://product-inventory-management-qxul.onrender.com
 ```
 
 ## Endpoints
@@ -214,9 +214,4 @@ GET /api/product/getproducts?limit=5&page=1&category=mobile
 ```
 
 ---
-
-## Notes
-- Ensure the server is running before making requests.
-- Use a tool like Postman or cURL for testing the API.
-- Replace `:id` in the URL with the actual product or category ID when required.
 
