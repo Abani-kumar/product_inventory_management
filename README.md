@@ -5,13 +5,13 @@ The Product Inventory Management API is a RESTful service designed for managing 
 
 ## Base URL
 ```
-http://localhost:8080
+[https://product-inventory-management-qxul.onrender.com/]
 ```
 
 ## Endpoints
 
 ### 1. **Create a Product**
-**POST** `/product/createproduct`
+**POST** `/api/product/createproduct`
 
 #### Request Body
 ```json
@@ -50,7 +50,7 @@ http://localhost:8080
 ---
 
 ### 2. **Get All Products**
-**GET** `/product/getproducts`
+**GET** `/api/product/getproducts`
 
 #### Query Parameters
 | Parameter  | Type   | Description                            |
@@ -62,7 +62,7 @@ http://localhost:8080
 
 #### Example Request
 ```
-GET /product/getproducts?limit=5&page=1&category=mobile
+GET /api/product/getproducts?limit=5&page=1&category=mobile
 ```
 
 #### Success Response
@@ -99,7 +99,7 @@ GET /product/getproducts?limit=5&page=1&category=mobile
 ---
 
 ### 3. **Get a Single Product**
-**GET** `/product/getproduct/:id`
+**GET** `/api/product/getproduct/:id`
 
 #### Success Response
 ```json
@@ -127,7 +127,7 @@ GET /product/getproducts?limit=5&page=1&category=mobile
 ---
 
 ### 4. **Update a Product**
-**PUT** `/product/updateproduct/:id`
+**PUT** `/api/product/updateproduct/:id`
 
 #### Request Body
 ```json
@@ -162,7 +162,7 @@ GET /product/getproducts?limit=5&page=1&category=mobile
 ---
 
 ### 5. **Delete a Product**
-**DELETE** `/product/deleteproduct/:id`
+**DELETE** `/api/product/deleteproduct/:id`
 
 #### Success Response
 ```json
@@ -183,7 +183,7 @@ GET /product/getproducts?limit=5&page=1&category=mobile
 ---
 
 ### 6. **Create a Category**
-**POST** `/category/createcategory`
+**POST** `/api/category/createcategory`
 
 #### Request Body
 ```json
